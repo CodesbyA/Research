@@ -1,0 +1,168 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+
+	background-image: linear-gradient(to right,#0c72aa, #134e70);
+    padding: 0 !important;
+}
+
+.navbar-brand
+{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-nav li
+{
+padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+
+.navicon
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*Banner*/
+
+#banner
+{
+	background-image: linear-gradient(to right,#0c72aa, #134e70);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title 
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img
+{
+    width: 100%;
+}
+
+.two
+{
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.x
+{
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#Aboutpoints
+{
+    padding: 80px 0;
+}
+
+.pin
+{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 140px;
+    padding-bottom: 20px;
+}
+
+#Abouthead
+{
+    font-weight: 10;
+    margin-top: 20px;
+}
+
+.points
+{
+    padding: 20px;
+}
+
+#Abouthead h4
+{
+padding: 5px;
+margin-top: 25px;
+text-transform: uppercase;
+}
+
+.x::before{
+    content: '';
+    background: #134e70;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(43px);
+}
+
+.x::after{
+    content: '';
+    background:  #0c72aa;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.y 
+{
+    margin-top: 40px;
+}
+
+/*footer*/
+
+#footer
+{
+	background-image: linear-gradient(to right,#0c72aa, #134e70);
+color: #fff;
+}
+
+.footer-img
+{
+    width: 100%;
+}
